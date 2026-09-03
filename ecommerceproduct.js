@@ -15,7 +15,7 @@ const product = {
     }
   },
   displayDetails: function() {
-    console.log("--- Product Details ---");
+    console.log("--- Product Details                    ---" );
     console.log(`ID: ${this.id}`);
     console.log(`Name: ${this.name}`);
     console.log(`Price: $${this.price.toFixed(2)}`);
