@@ -15,9 +15,6 @@ function sum(name,...value){
     for (let n of value){
         total = total+n;
     }
-    console.log(name);
-     return total ;
+    console.log("name",name);
+    console.log("total",total);
 }
-
-console.log(sum("ABC"));
-console.log(sum(30,23,45));
