@@ -10,7 +10,7 @@ console.log(sum (10,30,40));
 console.log(sum (40,30,90));
 
 
-function sum(name,...value){
+function newsum(name,...value){
     let total = 0;
     for (let n of value){
         total = total+n;
@@ -18,3 +18,4 @@ function sum(name,...value){
     console.log("name",name);
     console.log("total",total);
 }
+newsum("ABC",10,20,52)
