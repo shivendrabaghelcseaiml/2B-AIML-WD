@@ -7,7 +7,7 @@ student.on('studentRegistered', (name, rollNo) => {
     console.log("Roll Number:", rollNo);
 });
 student.on('studentLogout', (name) => {
-    console.log(name, "has logged out successfully.");
+    console.log(name, "thanks for visiting");
 });
 student.emit('studentRegistered', 'Shivendra', 2500321530188);
 student.emit('studentLogout', 'Shivendra');
